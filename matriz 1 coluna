@@ -1,0 +1,10 @@
+Sub matriz_1_coluna()
+'Uma matriz de uma coluna, pro excel, é uma linha.
+'Logo, os dados estarão na horizontal
+'Se quisermos os dados na vertical, precisamos usar o Transpose
+    Dim matriz() As Variant
+    
+    ReDim matriz(0) As Variant
+    matriz(0) = 1
+    
+End Sub

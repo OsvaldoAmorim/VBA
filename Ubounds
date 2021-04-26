@@ -1,0 +1,19 @@
+Sub bounds()
+    Dim matriz() As String
+    ReDim matriz(3)
+    
+    'A função UBound traz o maior indice de uma matriz de uma coluna
+    MsgBox (UBound(matriz))
+    
+    'A função LBound traz o menor índice de uma matriz de uma coluna
+    MsgBox (LBound(matriz))
+    
+    ReDim matriz(3, 1)
+    'Para usarmos a função UBound numa matriz com mais de uma coluna precisamos passar a matriz e o elemento que queremos
+    '1 para a linha, 2 para a coluna e assim sucessivamente
+    MsgBox (UBound(matriz, 2))
+    
+    'Para usarmos a função UBound numa matriz com mais de uma coluna precisamos passar a matriz e o elemento que queremos
+    '1 para a linha, 2 para a coluna e assim sucessivamente
+    MsgBox (LBound(matriz, 2))
+End Sub

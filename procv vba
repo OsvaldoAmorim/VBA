@@ -1,0 +1,12 @@
+Sub procv()
+    Dim tabela_com_dados() As Variant
+    Dim tabela_chave() As Variant
+    Dim tabela_resultado As Range
+    
+    tabela_com_dados() = Range("B:E").Value
+    tabela_chave() = Range("H2:H50").Value
+    
+    Set tabela_resultado = Range("I2:I50")
+    
+    tabela_resultado = WorksheetFunction.VLookup(tabela_chave, tabela_com_dados, 2, 0)
+End Sub

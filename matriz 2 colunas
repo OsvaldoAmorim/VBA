@@ -1,0 +1,9 @@
+Option Explicit
+Option Base 1 'Para o VBA entender que os índices começam do 1 e não do 0
+Sub matriz_2_coluns()
+    Dim matriz() As Variant
+    'O comando Preserve possibilita aumentar a quantidade de colunas mantendo os valores que já estão na tabela
+      'Ele não funciona se a quantidade de linhas mudar
+    ReDim Preserve matriz(10, 2) As Variant 'O Preserve só funciona se a quantidade de linhas for igual, se alteramos dá erro
+    
+End Sub

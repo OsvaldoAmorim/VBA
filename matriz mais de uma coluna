@@ -1,0 +1,15 @@
+Sub matriz_2_colunas_3_linhas()
+
+Dim matriz(1 To 3, 1 To 2) As Variant
+
+i = 1
+j = 1
+
+For i = 1 To 3:
+    For j = 1 To 2:
+        matriz(i, j) = i & j
+    Next
+Next
+
+
+End Sub

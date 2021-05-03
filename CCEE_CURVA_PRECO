@@ -1,0 +1,9 @@
+url: https://www.ccee.org.br/portal/faces/oracle/webcenter/portalapp/pages/publico/oquefazemos/produtos/precos/preco_horario_grafico.jspx
+verbo html: post
+body:
+  clicar em form-data
+    periodo = 02/05/2021
+    aba = SUDESTE
+    indPldSemanal = false
+    
+Headers são preenchidos automaticamente no postman
